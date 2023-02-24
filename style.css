@@ -134,7 +134,7 @@ body {
 
 /* Alert Stylings */
 #airtel-alert {
-    background: url(/img/airtel_alert.jpg);
+    background: url(/img/Airtel_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
@@ -187,7 +187,7 @@ body {
 }
 
 #mtn-alert {
-    background: url(/img/mtn_alert.jpg);
+    background: url(/img/MTN_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
@@ -239,7 +239,7 @@ body {
     cursor: pointer;
 }
 #glo-alert {
-    background: url(/img/glo_alert.jpg);
+    background: url(/img/Glo_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
