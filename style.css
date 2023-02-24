@@ -134,7 +134,7 @@ body {
 
 /* Alert Stylings */
 #airtel-alert {
-    background: url(/img/Airtel_alert.jpg);
+    background: url(img/Airtel_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
@@ -187,7 +187,7 @@ body {
 }
 
 #mtn-alert {
-    background: url(/img/MTN_alert.jpg);
+    background: url(img/MTN_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
@@ -239,7 +239,7 @@ body {
     cursor: pointer;
 }
 #glo-alert {
-    background: url(/img/Glo_alert.jpg);
+    background: url(img/Glo_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
@@ -292,7 +292,7 @@ body {
 }
 
 #mobile-alert {
-    background: url(/img/9mobile_alert.jpg);
+    background: url(img/9mobile_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
@@ -345,7 +345,7 @@ body {
 }
 
 #null-alert {
-    background: url(/img/Null_alert.jpg);
+    background: url(img/Null_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid rgb(220, 0, 0);
@@ -398,7 +398,7 @@ body {
 }
 
 #invalid-alert {
-    background: url(/img/Invalid_alert.jpg);
+    background: url(img/Invalid_alert.jpg);
     background-size: cover;
     background-position: center;
     border: 3px solid rgb(220, 0, 0);
