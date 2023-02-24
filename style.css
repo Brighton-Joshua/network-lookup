@@ -1,0 +1,479 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    animation: chnbg infinite;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes chnbg {
+    0% {
+        background: url(img/Airtel_bg.jpg);
+        background-size: contain;
+        background-repeat: none;
+    }
+
+    25% {
+        background: url(img/Airtel_bg.jpg);
+        background-size: contain;
+        background-repeat: none;
+    }
+
+    50% {
+        background: url(img/MTN_bg.jpg);
+        background-size: contain;
+        background-repeat: none;
+    }
+    75% {
+        background: url(img/Glo_bg.jpg);
+        background-size: contain;
+        background-repeat: none;
+    }
+    100% {
+        background: url(img/9mobile_bg.jpg);
+        background-size: contain;
+        background-repeat: none;
+    }
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    background: inherit;
+    background-position: center;
+    box-shadow: 0px 0px 20px rgb(75, 71, 71);
+    animation: conbg infinite;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+}
+
+@keyframes conbg {
+
+    0% {
+
+        background: rgb(220, 0, 0);
+    }
+
+    25% {
+        background: rgb(220, 0, 0);
+    }
+
+    50% {
+        background: rgb(255, 180, 31);
+    }
+    75% {
+        background: rgb(88, 248, 2);
+    }
+    100% {
+        background: rgb(13, 28, 9);
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 40vh;
+    padding: 0px 25px;
+
+}
+
+.wrapper p {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bolder;
+   font-size: 130%;
+   margin-bottom: 20px;
+   text-align: center;
+   color: white;
+}
+
+.wrapper #tel {
+   background: #fff;
+   width: 95%;
+   height: 20%;
+   border: none;
+   border-bottom: 3px solid black;
+   padding: 1px 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 120%;
+   margin-bottom: 20px;
+}
+
+.wrapper button {
+    background: darkgreen;
+    padding: 2px 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    margin-bottom: 15px;
+    width: 40%;
+    height: 15%;
+}
+
+.wrapper button:hover {
+    background: rgb(4, 63, 4);
+    cursor: pointer;
+}
+
+/* Alert Stylings */
+#airtel-alert {
+    background: url(img/airtel_alert.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    top: 34%;
+    margin: auto;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    visibility: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#airtel-alert p {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+#airtel-alert label span {
+    position: static;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-top: -170px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#mtn-alert {
+    background: url(img/mtn_alert.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    top: 34%;
+    margin: auto;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    visibility: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#mtn-alert p {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+#mtn-alert label span {
+    position: static;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-top: -170px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#glo-alert {
+    background: url(img/glo_alert.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    top: 34%;
+    margin: auto;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    visibility: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#glo-alert p {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+#glo-alert label span {
+    position: static;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-top: -170px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#mobile-alert {
+    background: url(img/9mobile_alert.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    top: 34%;
+    margin: auto;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    visibility: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#mobile-alert p {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+#mobile-alert label span {
+    position: static;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-top: -170px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#null-alert {
+    background: url(img/Null_alert.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid rgb(220, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    top: 34%;
+    margin: auto;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    visibility: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#null-alert p {
+   color: #000;
+   text-transform: uppercase;
+}
+
+#null-alert label span {
+    position: static;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-top: -170px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#invalid-alert {
+    background: url(img/Invalid_alert.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid rgb(220, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    top: 34%;
+    margin: auto;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    visibility: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#invalid-alert p {
+   color: #000;
+   text-transform: uppercase;
+}
+
+#invalid-alert label span {
+    position: static;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    margin-top: -170px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Checkbox Syling */
+#check {
+    display: none;
+}
+#check:checked ~ #airtel-alert {
+    visibility: hidden;
+}
+
+#check:checked ~ #mtn-alert {
+    visibility: hidden;
+}
+
+#check:checked ~ #glo-alert {
+    visibility: hidden;
+}
+
+#check:checked ~ #mobile-alert {
+    visibility: hidden;
+}
+
+#check:checked ~ #null-alert {
+    visibility: hidden;
+}
+
+#check:checked ~ #invalid-alert {
+    visibility: hidden;
+}

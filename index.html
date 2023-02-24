@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Type View</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>    
+</head>
+<body id="body">
+    <input type="checkbox" id="check" onclick="hideAlert()">  
+    <div id="container">
+        <div class="wrapper">
+            <p>Input first four digits of your telephone number</p>
+            <input type="text" name="tel" id="tel" placeholder="Start from 0 (e.g. 0XXX)">
+            <button type="button" onclick="validate()">CHECK</button>
+        </div>
+    </div>
+    
+    <div id="airtel-alert">
+        <label for="check">
+            <span>X</span>
+        </label>
+        <p>Telephone Network detected to be Airtel</p>
+    </div>
+
+    <div id="mtn-alert">
+        <label for="check">
+            <span>X</span>
+        </label>
+        <p>Telephone Network detected to be MTN</p>
+    </div>
+
+    <div id="glo-alert">
+        <label for="check">
+            <span>X</span>
+        </label>
+        <p>Telephone Network detected to be Glog</p>
+    </div>
+
+    <div id="mobile-alert">
+        <label for="check">
+            <span>X</span>
+        </label>
+        <p>Telephone Network detected to be 9mobile</p>
+    </div>
+
+    <div id="null-alert">
+        <label for="check">
+            <span>X</span>
+        </label>
+        <p>Please input your first four Telephone digits</p>
+    </div>
+
+    <div id="invalid-alert">
+        <label for="check">
+            <span>X</span>
+        </label>
+        <p>Telephone Network detection Failed</p>
+    </div>
+</body>
+</html>
